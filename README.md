@@ -14,17 +14,17 @@ An internal reporting tool that will use information from the database to discov
 
 ### Preparation and Setup
 
-1.Download and unzip database file [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+1.Download and unzip database file [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) or by cloning this repository.
 
 2.The file inside is called newsdata.sql. Put this file into the vagrant directory, which is shared with your virtual machine.
 
-3.Start the virtual machine
+3.Start the virtual machine.
 
-4.To load the data, use the command shown below
+4.To load the data, use the command shown below.
 ```
 psql -d news -f newsdata.sql.
 ```
-5.Run "python logs_analysis.py"
+5.Run "python logs_analysis.py".
 
 ### Sample Outputs
 ```
